@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:starter_namer/layout/screens/food_screen.dart';
+import 'package:food-delivery-app/layout/screens/food_screen.dart';
 
 void main() {
   runApp(const MyApp());

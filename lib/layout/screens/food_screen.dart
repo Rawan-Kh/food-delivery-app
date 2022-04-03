@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:starter_namer/layout/screens/search_screen.dart';
-import 'package:starter_namer/layout/widget/food_item.dart';
-import 'package:starter_namer/models/food_model.dart';
+import 'package:food-delivery-app/layout/screens/search_screen.dart';
+import 'package:food-delivery-app/layout/widget/food_item.dart';
+import 'package:food-delivery-app/models/food_model.dart';
 
 class FoodScreen extends StatelessWidget {
   const FoodScreen({Key? key}) : super(key: key);

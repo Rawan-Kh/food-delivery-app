@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:session_6/layout/screens/search_screen.dart';
-import 'package:session_6/layout/widget/food_item.dart';
-import 'package:session_6/models/food_model.dart';
+import 'package:starter_namer/layout/screens/search_screen.dart';
+import 'package:starter_namer/layout/widget/food_item.dart';
+import 'package:starter_namer/models/food_model.dart';
 
 class FoodScreen extends StatelessWidget {
   const FoodScreen({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class FoodScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Food Delver',
+          'Food App',
           style: TextStyle(
             fontSize: 24.0,
           ),
@@ -42,7 +42,7 @@ class FoodScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(
-          Icons.shopping_bag,
+          Icons.shopping_cart,
         ),
       ),
     );
